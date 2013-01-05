@@ -20,6 +20,9 @@
 		6A1E9B9B160C9E2F003B5D8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E9B7C160C9E2E003B5D8B /* Foundation.framework */; };
 		6A1E9BA3160C9E2F003B5D8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E9BA1160C9E2F003B5D8B /* InfoPlist.strings */; };
 		6A1E9BA6160C9E2F003B5D8B /* MovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E9BA5160C9E2F003B5D8B /* MovieTests.m */; };
+		6A1E9BB0160C9F0D003B5D8B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E9BAF160C9F0D003B5D8B /* MediaPlayer.framework */; };
+		6A1E9BB3160CA06E003B5D8B /* filme.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E9BB1160CA06E003B5D8B /* filme.mov */; };
+		6A1E9BB6160CAF74003B5D8B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E9BB5160CAF74003B5D8B /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		6A1E9BA2160C9E2F003B5D8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1E9BA4160C9E2F003B5D8B /* MovieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieTests.h; sourceTree = "<group>"; };
 		6A1E9BA5160C9E2F003B5D8B /* MovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTests.m; sourceTree = "<group>"; };
+		6A1E9BAF160C9F0D003B5D8B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6A1E9BB1160CA06E003B5D8B /* filme.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = filme.mov; sourceTree = "<group>"; };
+		6A1E9BB5160CAF74003B5D8B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1E9BB6160CAF74003B5D8B /* MobileCoreServices.framework in Frameworks */,
+				6A1E9BB0160C9F0D003B5D8B /* MediaPlayer.framework in Frameworks */,
 				6A1E9B7B160C9E2E003B5D8B /* UIKit.framework in Frameworks */,
 				6A1E9B7D160C9E2E003B5D8B /* Foundation.framework in Frameworks */,
 				6A1E9B7F160C9E2E003B5D8B /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +89,8 @@
 		6A1E9B6B160C9E2E003B5D8B = {
 			isa = PBXGroup;
 			children = (
+				6A1E9BB5160CAF74003B5D8B /* MobileCoreServices.framework */,
+				6A1E9BAF160C9F0D003B5D8B /* MediaPlayer.framework */,
 				6A1E9B80160C9E2E003B5D8B /* Movie */,
 				6A1E9B9E160C9E2F003B5D8B /* MovieTests */,
 				6A1E9B79160C9E2E003B5D8B /* Frameworks */,
@@ -114,6 +124,7 @@
 				6A1E9B89160C9E2E003B5D8B /* PrincipalAppDelegate.h */,
 				6A1E9B8A160C9E2E003B5D8B /* PrincipalAppDelegate.m */,
 				6A1E9B8C160C9E2E003B5D8B /* MainStoryboard.storyboard */,
+				6A1E9BB1160CA06E003B5D8B /* filme.mov */,
 				6A1E9B8F160C9E2E003B5D8B /* PrincipalViewController.h */,
 				6A1E9B90160C9E2E003B5D8B /* PrincipalViewController.m */,
 				6A1E9B81160C9E2E003B5D8B /* Supporting Files */,
@@ -225,6 +236,7 @@
 			files = (
 				6A1E9B85160C9E2E003B5D8B /* InfoPlist.strings in Resources */,
 				6A1E9B8E160C9E2E003B5D8B /* MainStoryboard.storyboard in Resources */,
+				6A1E9BB3160CA06E003B5D8B /* filme.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
